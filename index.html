@@ -21,12 +21,20 @@
     h1, p {
       font-family: 'Merriweather Sans';
     }
+    h5 {
+      font-family: 'Alegreya';
+      font-weight: 700;
+      font-size: 1.2em;
+    }
     p {
       font-family: 'Roboto', sans-serif;
     }
+    .black {
+      color: black;
+    }
     a {
       color: black;
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
     a:hover {
       background-color: #33b5e5;
@@ -35,25 +43,30 @@
     .slash {
       color: rgb(10, 151, 194);
     }
+    .porto:hover {
+      color: #33b5e5;
+      text-decoration: none;
+    }
+    footer {
+      font-size: .8em;
+    }
         </style>
   </head>
   <body data-spy="scroll" data-target="#navbar">
     <div class="container">
       <div class="container">
-        <div class='row mx-auto mb-5'>
-          <div class='col-8'>
-            <h1 class='display-4 my-5'><b><span class='slash'>/</span>Daniel Nguyen<span class='slash'>/</span></b></h1>
+        <div class='row mx-auto justify-content-md-center my-5'>
+          <div class='col-6'>
+            <h1><span class='slash'>/</span>Daniel Nguyen<span class='slash'>/</span></h1>
           </div>
           <div class='col-4'>
-            <br>
-            <p class='h5 text-right mt-2'><s>UX Designer</s></p>
-            <p class='h5 text-right'><s>Web Developer</s></p>
+            <p class='h5 text-right'>UX Designer</p>
+            <p class='h5 text-right'>Web Developer</p>
             <p class='h5 text-right'>Student</p>
-            <br>
           </div>
         </div>
-        <div class="row">
-          <div class="col-3">
+        <div class="row justify-content-md-center">
+          <div class="col-2">
             <div class="sticky-top nav-pills py-3" id="navbar">
               <a class="nav-link" href="#about">About Me</a>
               <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -61,103 +74,90 @@
               <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
-          <div class="col-9 py-4">
-            <p class='h4'>Hi, my name is Daniel. <br>I am not a UX Designer or a Web Developer.
+          <div class='col-1'></div>
+          <div class="col-7 py-4">
+            <p class='h4'>Hi, my name is Daniel.
             </p>
             <br>
             <p class='h4 mb-5'>I am a student trying to learn about and impact the world through empathetic design. </p>
             <div data-spy="scroll" data-target="#navbar" data-offset="0">
-              <h4 class="mt-5 pt-5" id="about">Me.</h4>
+              <h5 class="mt-5 pt-5" id="about">Me.</h5>
               <p>
                 I am a Junior at the University of Washington, studying Human Centered Design and Engineering. I am passionate about UX design, interaction design, graphic design, and web design. I strive to learn from my experiences in order to create people friendly products.</p>
-              <h4 class="pt-3" id="about">Also Me.</h4>
+              <h5 class="pt-3" id="about">Also Me.</h5>
                 <p>
                   I love to draw and design in my free time. My current project is creating a personal clothing line called <s>Blank</s> selling quality non-blank tee-shirts (because if my logo is on the shirt, then the shirts aren't blank). I also love to keep up with the NBA and soccer. I consider myself an adventurous person, and my current adventures are centered around indoor rock-climbing.</p>
-              <h4 class="mt-5 pt-5" id="portfolio">Work.</h4>
-              <a class='port' href='#about'> 
-                <div class="card text-white my-5">
-                  <img class='card-img img-fluid rounded' src='hulugrad3.png' alt="Card image">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Hive Queen</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text">UX/UI Design</p>
+              <h5 class="mt-5 pt-5" id="portfolio">Work.</h5>
+              <a class='porto' href='#about'>
+                <div class="card border-light shadow-sm my-5">
+                  <div class="card-header">
+                    <h5>Hive Queen / UX & UI Design</h5>
                   </div>
+                  <img class='card-img img-fluid rounded' src='hivequeen.png' alt="Card image">
                 </div>
               </a>
-              <div class="card text-white my-5">
-                  <img class='card-img img-fluid rounded' src='hulugrad3.png' alt="Card image">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">QFC Rebrand</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text">Graphic Design/p>
+              <a class='porto' href='#about'>
+                <div class="card border-light shadow-sm my-5">
+                  <div class="card-header border-0">
+                    <h5>QFC / Graphic Design</h5>
                   </div>
+                  <img class='card-img img-fluid rounded' src='qfc.png' alt="Card image">
+                </div>
+              </a>
+              <a class='porto' href='#about'>
+              <div class="card border-light shadow-sm my-5">
+                <div class="card-header border-0">
+                  <h5>Project ARTogether / Graphic Design & Social Media</h5>
+                </div>
+                <img class='card-img img-fluid rounded' src='arto2.PNG' alt="Card image">
               </div>
-              <div class="card text-white my-5">
-                  <img class='card-img img-fluid rounded' src='hulugrad3.png' alt="Card image">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Project ARTogether</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text">Social Media & Graphic Design</p>
+              </a>
+              <a class='porto' href='#about'>
+              <div class="card border-light shadow-sm my-5">
+                <div class="card-header border-0">
+                  <h5>Space Box / Interaction Design</h5>
+                </div>
+                <img class='card-img img-fluid rounded' src='hulugrad3.png' alt="Card image">
+              </div>
+              </a>
+              <a class='porto' href='#about'>
+              <div class="card border-light shadow-sm my-5">
+                <div class="card-header border-0">
+                  <h5>College Chef / UX & UI Design</h5>
+                </div>
+                <img class='card-img img-fluid rounded' src='hulugrad3.png' alt="Card image">
+              </div>
+              </a>
+                <h5 class="mt-5 pt-5" id="resume">Resume.</h5>
+                <a class="btn btn-info mt-3" href="resume.pdf" target='_blank' role="button">Click for PDF</a>
+                <h5 class="mt-5 pt-5" id="contact">Contact.</h5>
+                <p class='mt-3'>Please fill out the form below to get in touch!</p>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputName1">Name</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Jane Doe">
                   </div>
-              </div>
-              <div class="card text-white my-5">
-                  <img class='card-img img-fluid rounded' src='hulugrad3.png' alt="Card image">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">Space Box</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text">Video Game Design</p>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">I will never share your email with anyone else.</small>
                   </div>
-              </div>
-              <div class="card text-white my-5">
-                  <img class='card-img img-fluid rounded' src='hulugrad3.png' alt="Card image">
-                  <div class="card-img-overlay">
-                    <h5 class="card-title">College Chef</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text">UX Design</p>
+                  <div class="form-group">
+                    <label for="exampleInputText1">Comment</label>
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Type here..."></textarea>
                   </div>
-              </div>
-                <h4 class="mt-5 pt-5" id="resume">Resume.</h4>
-                <p>Praesent porta imperdiet metus id imperdiet. Suspendisse id blandit mauris. Nulla congue aliquam quam nec tempor.
-                  Vestibulum imperdiet ullamcorper ex at pulvinar. Donec accumsan quam augue, et porttitor nisl pharetra vitae. Nullam
-                  ultrices, sem eu viverra vehicula, risus sem lobortis diam, dignissim semper lectus nisl eu ante. Nullam iaculis mi
-                  ac sollicitudin pulvinar. Morbi feugiat, ex et luctus cursus, purus turpis vestibulum nunc, non tincidunt nisl augue
-                  sit amet libero. Sed vel risus a orci ornare rutrum tincidunt at mi. Suspendisse euismod ut metus vulputate ornare.</p>
-              <p>Praesent porta imperdiet metus id imperdiet. Suspendisse id blandit mauris. Nulla congue aliquam quam nec tempor.
-                Vestibulum imperdiet ullamcorper ex at pulvinar. Donec accumsan quam augue, et porttitor nisl pharetra vitae. Nullam
-                ultrices, sem eu viverra vehicula, risus sem lobortis diam, dignissim semper lectus nisl eu ante. Nullam iaculis mi
-                ac sollicitudin pulvinar. Morbi feugiat, ex et luctus cursus, purus turpis vestibulum nunc, non tincidunt nisl augue
-                sit amet libero. Sed vel risus a orci ornare rutrum tincidunt at mi. Suspendisse euismod ut metus vulputate ornare.</p>
-                <p>Praesent porta imperdiet metus id imperdiet. Suspendisse id blandit mauris. Nulla congue aliquam quam nec tempor.
-                  Vestibulum imperdiet ullamcorper ex at pulvinar. Donec accumsan quam augue, et porttitor nisl pharetra vitae. Nullam
-                  ultrices, sem eu viverra vehicula, risus sem lobortis diam, dignissim semper lectus nisl eu ante. Nullam iaculis mi
-                  ac sollicitudin pulvinar. Morbi feugiat, ex et luctus cursus, purus turpis vestibulum nunc, non tincidunt nisl augue
-                  sit amet libero. Sed vel risus a orci ornare rutrum tincidunt at mi. Suspendisse euismod ut metus vulputate ornare.</p>
-                <p>Praesent porta imperdiet metus id imperdiet. Suspendisse id blandit mauris. Nulla congue aliquam quam nec tempor.
-                  Vestibulum imperdiet ullamcorper ex at pulvinar. Donec accumsan quam augue, et porttitor nisl pharetra vitae. Nullam
-                  ultrices, sem eu viverra vehicula, risus sem lobortis diam, dignissim semper lectus nisl eu ante. Nullam iaculis mi
-                  ac sollicitudin pulvinar. Morbi feugiat, ex et luctus cursus, purus turpis vestibulum nunc, non tincidunt nisl augue
-                  sit amet libero. Sed vel risus a orci ornare rutrum tincidunt at mi. Suspendisse euismod ut metus vulputate ornare.</p>
-                <h4 class="mt-5 pt-5" id="contact">Contact.</h4>
-                <p>Praesent porta imperdiet metus id imperdiet. Suspendisse id blandit mauris. Nulla congue aliquam quam nec tempor.
-                  Vestibulum imperdiet ullamcorper ex at pulvinar. Donec accumsan quam augue, et porttitor nisl pharetra vitae. Nullam
-                  ultrices, sem eu viverra vehicula, risus sem lobortis diam, dignissim semper lectus nisl eu ante. Nullam iaculis mi
-                  ac sollicitudin pulvinar. Morbi feugiat, ex et luctus cursus, purus turpis vestibulum nunc, non tincidunt nisl augue
-                  sit amet libero. Sed vel risus a orci ornare rutrum tincidunt at mi. Suspendisse euismod ut metus vulputate ornare.</p>
-                  <p>Praesent porta imperdiet metus id imperdiet. Suspendisse id blandit mauris. Nulla congue aliquam quam nec tempor.
-                      Vestibulum imperdiet ullamcorper ex at pulvinar. Donec accumsan quam augue, et porttitor nisl pharetra vitae. Nullam
-                      ultrices, sem eu viverra vehicula, risus sem lobortis diam, dignissim semper lectus nisl eu ante. Nullam iaculis mi
-                      ac sollicitudin pulvinar. Morbi feugiat, ex et luctus cursus, purus turpis vestibulum nunc, non tincidunt nisl augue
-                      sit amet libero. Sed vel risus a orci ornare rutrum tincidunt at mi. Suspendisse euismod ut metus vulputate ornare.</p>
-                      <p>Praesent porta imperdiet metus id imperdiet. Suspendisse id blandit mauris. Nulla congue aliquam quam nec tempor.
-                          Vestibulum imperdiet ullamcorper ex at pulvinar. Donec accumsan quam augue, et porttitor nisl pharetra vitae. Nullam
-                          ultrices, sem eu viverra vehicula, risus sem lobortis diam, dignissim semper lectus nisl eu ante. Nullam iaculis mi
-                          ac sollicitudin pulvinar. Morbi feugiat, ex et luctus cursus, purus turpis vestibulum nunc, non tincidunt nisl augue
-                          sit amet libero. Sed vel risus a orci ornare rutrum tincidunt at mi. Suspendisse euismod ut metus vulputate ornare.</p>
-            </div>
+                  <button type="submit" class="btn btn-info">Submit</button>
+                </form>
           </div>
         </div>
+        </div>
+        <div class='row justify-content-md-center'>
+          <footer class='col-10 container'>
+            <hr>
+            <p class='text-right'>Made with Bootstrap</p>
+          </footer>
+        </div>
       </div>
-        
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"></script>
