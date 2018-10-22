@@ -1,0 +1,79 @@
+
+html {
+    scroll-behavior: smooth;
+    font-size: 1.2vw;
+}
+
+@media (max-width: 575.98px) {
+    html {
+    font-size: 3.5vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    html {
+    font-size: 2.5vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    html {
+    font-size: 1.8vw;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    html {
+    font-size: 1.45vw;
+    }
+}
+@media (min-width: 1200px) {
+    html {
+    font-size: 16px;
+    }
+}
+
+@media (min-width: 1800px) {
+    html {
+    font-size: 16px;
+    }
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+h1, p {
+    font-family: 'Merriweather Sans';
+}
+
+h5 {
+    font-family: 'Alegreya';
+    font-weight: 700;
+    font-size: 1.2em;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+.black {
+    color: black;
+}
+a {
+    color: black;
+    font-size: 1rem;
+}
+a:hover {
+    background-color: #33b5e5;
+    color: white;
+}
+.slash {
+    color: rgb(10, 151, 194);
+}
+.porto:hover {
+    color: #33b5e5;
+    text-decoration: none;
+}
+footer {
+    font-size: .8em;
+}
