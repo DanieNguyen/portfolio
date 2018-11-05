@@ -44,14 +44,13 @@ body {
     font-family: 'Roboto Slab', sans-serif;
 }
 
-h1, p {
+h1, .headp, p {
     font-family: 'Merriweather Sans';
 }
 
-h5 {
-    font-family: 'Alegreya';
-    font-weight: 700;
-    font-size: 1.2em;
+.text {
+    font-weight: 300;
+    font-size: 2em;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -70,10 +69,56 @@ a:hover {
 .slash {
     color: #0a97c2;
 }
-.porto:hover {
-    color: #33b5e5;
-    text-decoration: none;
+
+.hive {
+    color: rgb(240, 172, 26);
 }
+
+.qfc {
+    color: rgb(16, 165, 115);
+}
+
+.art {
+    color: rgb(212, 78, 25);
+}
+
+.pia {
+    color: rgb(58, 155, 219);
+}
+
+.hov {
+    position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hov:hover .image {
+  opacity: 0.2;
+}
+
+.hov:hover .middle {
+  opacity: 1;
+  color: black;
+}
+
 footer {
     font-size: .8em;
 }
