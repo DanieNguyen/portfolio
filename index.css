@@ -49,15 +49,15 @@ body {
 }
 
 h1, .headp, p {
-    font-family: 'Merriweather Sans';
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .text {
     font-weight: 300;
     font-size: 2em;
 }
-p {
-    font-family: 'Roboto', sans-serif;
+p, ul li {
+    font-family: 'Nunito', sans-serif;
 }
 .black {
     color: black;
