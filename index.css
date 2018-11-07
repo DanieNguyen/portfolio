@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box; /* all elements include border and padding in size */
+} 
+
 html {
     scroll-behavior: smooth;
     font-size: 1.2vw;
