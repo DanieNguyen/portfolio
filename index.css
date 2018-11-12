@@ -45,11 +45,14 @@ html {
 
 body {
     position: relative;
-    font-family: 'Roboto Slab', sans-serif;
 }
 
-h1, .headp, p {
+h1, .headp {
     font-family: 'Merriweather Sans', sans-serif;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .text {
@@ -57,7 +60,7 @@ h1, .headp, p {
     font-size: 2em;
 }
 p, ul li {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .black {
     color: black;
